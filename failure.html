@@ -11,7 +11,9 @@
         <div class="container">
           <h1 class="display-4">Uh Oh!!</h1>
           <p class="lead">There was a problem signing you up. Please try again or contact the developer!</p>
-          <a class="btn btn-dark btn-lg" href="/" role="button">Try Again</a>
+          <form action="/failure" method="post">
+            <button class="btn btn-lg btn-dark" type="submit" name="submit">Try Again!</button>
+          </form>
         </div>
         
       </div>
